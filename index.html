@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body data-offset="50">
+
+<div class="">
+	<div class="jumbotron">
+		<div class="container-fluid header">
+			<div class="pull-left">
+				<img src="images/logo.png" class="img-responsive" style="margin-top: 10px;">
+			</div>
+			<div class="pull-right">
+				<form class="navbar-form">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="submit" class="btn btn-gold">Submit</button>
+			    </form>
+			</div>
+		</div>
+		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="100">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <!-- <a class="navbar-brand" href="#">Brand</a> -->
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <!-- <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">Link</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">One more separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul> -->
+
+		      <ul class="nav navbar-nav navbar-right">
+		        <!-- <li><a href="#">Link</a></li> -->
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Buy <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sell <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		        <li><a href="#">Compare</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News and Reviews <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		  <h1 class="header-content-text" align="center">Meet your hot new Ride</h1>
+		  <div 	class="container filter-tabs">
+			  <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#car" aria-controls="home" role="tab" data-toggle="tab">Search Cars for Sale</a></li>
+			    <li role="presentation"><a href="#reviews" aria-controls="profile" role="tab" data-toggle="tab">Read Specs and Reviews</a></li>
+			  </ul>
+
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane fade in active" id="car">
+					<div class="container-fluid">
+						<label class="radio-inline">
+						  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked> All
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> New
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Used
+						</label>
+						<br><br>
+						<div class="btn-group width-100-percent" role="group" aria-label="...">
+						  <div class="btn-group width-30-percent height-50" role="group">
+						    <div class="form-group">
+							  <select class="form-control height-50-px" id="sel1">
+							  	<option selected>All makes</option>
+							    <option>Ford</option>
+							    <option>Ferrari</option>
+							    <option>Chevrolet</option>
+							    <option>Mitsubishi</option>
+							  </select>
+							</div>
+						  </div>
+						  <div class="btn-group width-30-percent" role="group">
+						    <div class="form-group">
+							  <select class="form-control height-50-px" id="sel2">
+							  	<option selected>All models</option>
+							    <option>model 1</option>
+							    <option>model 2</option>
+							    <option>model 3</option>
+							    <option>model 4</option>
+							  </select>
+							</div>
+						  </div>
+						  <div class="btn-group width-30-percent" role="group">
+						    <div class="form-group">
+							  <select class="form-control height-50-px" id="sel3">
+							  	<option selected>No set max</option>
+							    <option>1 000 000</option>
+							    <option>200 000</option>
+							    <option>300 000</option>
+							    <option>400 000</option>
+							  </select>
+							</div>
+						  </div>
+						  <button type="button" class="btn btn-gold height-50-px width-10-percent"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search</button>
+						</div>
+					</div>
+			    </div>
+			    <div role="tabpanel" class="tab-pane fade" id="reviews">
+					<div class="container-fluid">
+						<div class="btn-group width-100-percent" role="group" aria-label="...">
+						  <div class="btn-group width-30-percent" role="group">
+						    <div class="form-group">
+							  <select class="form-control height-50-px" id="sel1">
+							  	<option selected>All makes</option>
+							    <option>Ford</option>
+							    <option>Ferrari</option>
+							    <option>Chevrolet</option>
+							    <option>Mitsubishi</option>
+							  </select>
+							</div>
+						  </div>
+						  <div class="btn-group width-30-percent" role="group">
+						    <div class="form-group">
+							  <select class="form-control height-50-px" id="sel2">
+							  	<option selected>All models</option>
+							    <option>model 1</option>
+							    <option>model 2</option>
+							    <option>model 3</option>
+							    <option>model 4</option>
+							  </select>
+							</div>
+						  </div>
+						  <div class="btn-group width-30-percent" role="group">
+						    <div class="form-group">
+							  <select class="form-control height-50-px" id="sel3">
+							  	<option selected>Select a year</option>
+							    <option>2016</option>
+							    <option>2015</option>
+							    <option>2014</option>
+							    <option>2013</option>
+							  </select>
+							</div>
+						  </div>
+						  <button type="button" class="btn btn-gold height-50-px width-10-percent"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search</button>
+						</div>
+					</div>
+			    </div>
+			  </div>
+		</div>
+	</div>
+</div>
+
+<section class="second-section">
+	<div class="container">
+		<div class="row">
+			<h1 class="pull-left text-brown">Featured Cars</h1>
+			<button class="btn btn-gold pull-right margin-top-30">View More</button>
+		</div>
+	    <div id="main_area">
+	        <!-- Slider -->
+	        <div class="row">
+	            <div class="col-sm-6" id="slider-thumbs">
+	                <!-- Bottom switcher of slider -->
+	                <ul class="hide-bullets">
+	                    <li class="col-sm-4">
+	                        <a class="thumbnail" id="carousel-selector-0">
+	                            <img src="images/car-1.jpg" class="img-responsive">
+	                        </a>
+	                    </li>
+
+	                    <li class="col-sm-4">
+	                        <a class="thumbnail" id="carousel-selector-1">
+	                        	<img src="images/car-2.jpg" class="img-responsive">
+	                        </a>
+	                    </li>
+
+	                    <li class="col-sm-4">
+	                        <a class="thumbnail" id="carousel-selector-2">
+	                        	<img src="images/car-3.jpg" class="img-responsive">
+	                        </a>
+	                    </li>
+
+	                    <li class="col-sm-4">
+	                        <a class="thumbnail" id="carousel-selector-3">
+	                        	<img src="images/car-4.jpg" class="img-responsive">
+	                        </a>
+	                    </li>
+
+	                    <li class="col-sm-4">
+	                        <a class="thumbnail" id="carousel-selector-4">
+	                        	<img src="images/car-5.jpg" class="img-responsive">
+	                        </a>
+	                    </li>
+
+	                    <li class="col-sm-4">
+	                        <a class="thumbnail" id="carousel-selector-5">
+	                        	<img src="images/car-6.jpg" class="img-responsive">
+	                        </a>
+	                    </li>
+	                    <li class="col-sm-4">
+	                        <a class="thumbnail" id="carousel-selector-6">
+	                        	<img src="images/car-7.jpg" class="img-responsive">
+	                        </a>
+	                    </li>
+
+	                    <li class="col-sm-4">
+	                        <a class="thumbnail" id="carousel-selector-7">
+	                        	<img src="images/car-8.jpg" class="img-responsive">
+	                        </a>
+	                    </li>
+
+	                    <li class="col-sm-4">
+	                        <a class="thumbnail" id="carousel-selector-8">
+	                        	<img src="images/car-9.jpg" class="img-responsive">
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div class="col-sm-6">
+	            	<br>
+	                <div class="col-xs-12" id="slider">
+	                    <!-- Top part of the slider -->
+	                    <div class="row">
+	                        <div class="col-sm-12" id="carousel-bounding-box">
+	                            <div class="carousel slide" id="myCarousel">
+	                                <!-- Carousel items -->
+	                                <div class="carousel-inner">
+	                                    <div class="active item" data-slide-number="0">
+	                                        <img src="images/car-1.jpg" class="img-responsive">
+	                                        <div class="carousel-caption">
+										        <h3>2017 Nissan Sentra Nismo</h3>
+										        <p>This is an high speen car from mars.</p>
+									      	</div>
+	                                    </div>
+
+	                                    <div class="item" data-slide-number="1">
+	                                        <img src="images/car-2.jpg" class="img-responsive">
+	                                        <div class="carousel-caption">
+										        <h3>1973 Toyota Corolla</h3>
+										        <p>This is an high speen car from mars.</p>
+									      	</div>
+	                                    </div>
+
+	                                    <div class="item" data-slide-number="2">
+	                                        <img src="images/car-3.jpg" class="img-responsive">
+	                                        <div class="carousel-caption">
+										        <h3>2017 Porsche 911 Turbo</h3>
+										        <p>This is an high speen car from mars.</p>
+									      	</div>
+	                                    </div>
+
+	                                    <div class="item" data-slide-number="3">
+	                                       <img src="images/car-4.jpg" class="img-responsive">
+	                                       <div class="carousel-caption">
+										        <h3>Marchionne</h3>
+										        <p>This is an high speen car from mars.</p>
+									      	</div>
+	                                    </div>
+
+	                                    <div class="item" data-slide-number="4">
+	                                        <img src="images/car-5.jpg" class="img-responsive">
+	                                        <div class="carousel-caption">
+										        <h3>Ford Fiesta WRC 2017</h3>
+										        <p>This is an high speen car from mars.</p>
+									      	</div>
+	                                    </div>
+
+	                                    <div class="item" data-slide-number="5">
+	                                        <img src="images/car-6.jpg" class="img-responsive">
+	                                        <div class="carousel-caption">
+										        <h3>2018 Mercedes-AMG E63</h3>
+										        <p>This is an high speen car from mars.</p>
+									      	</div>
+	                                    </div>
+	                                    
+	                                    <div class="item" data-slide-number="6">
+	                                        <img src="images/car-7.jpg" class="img-responsive">
+	                                        <div class="carousel-caption">
+										        <h3>1993 Mazda RX-7</h3>
+										        <p>This is an high speen car from mars.</p>
+									      	</div>
+	                                    </div>
+	                                    
+	                                    <div class="item" data-slide-number="7">
+	                                        <img src="images/car-8.jpg" class="img-responsive">
+	                                        <div class="carousel-caption">
+										        <h3>BMW M4 DTM</h3>
+										        <p>This is an high speen car from mars.</p>
+									      	</div>
+	                                    </div>
+	                                    
+	                                    <div class="item" data-slide-number="8">
+	                                        <img src="images/car-9.jpg" class="img-responsive">
+	                                        <div class="carousel-caption">
+										        <h3>2016 BMW M4 GTS</h3>
+										        <p>This is an high speen car from mars.</p>
+									      	</div>
+	                                    </div>
+	                                </div>
+	                                <!-- Carousel nav -->
+	                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	                                    <span class="glyphicon glyphicon-chevron-left"></span>
+	                                </a>
+	                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	                                    <span class="glyphicon glyphicon-chevron-right"></span>
+	                                </a>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <!--/Slider-->
+	        </div>
+	    </div>
+	</div>	
+</section>
+
+
+<section class="third-section">
+	<div class="container">
+		<div class="row">
+			<h1 class="pull-left">Car Reviews</h1>
+			<button class="btn btn-gold pull-right margin-top-30">View More</button>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-6">
+				<img src="images/car-review-1.jpg" class="img-responsive">
+				<br>
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<div class="row">
+						<div class="col-lg-2" style="padding-right: 0px;">
+							<img src="images/car-review-propic-1.jpg" class="img-responsive propic-circle pull-left">
+						</div>
+						<div class="col-lg-10">
+							<br>
+							<footer>Robert Downey Jr.<br>2016</footer>
+						</div>
+					</div>
+				</blockquote>
+			</div>
+			<div class="col-lg-6">
+				<img src="images/car-review-2.jpg" class="img-responsive">
+				<br>
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<div class="row">
+						<div class="col-lg-2" style="padding-right: 0px;">
+							<img src="images/car-review-propic-2.jpg" class="img-responsive propic-circle pull-left">
+						</div>
+						<div class="col-lg-10">
+							<br>
+							<footer>Benedict Cumberbatch<br>2016</footer>
+						</div>
+					</div>
+				</blockquote>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<img src="images/car-4.jpg" class="img-responsive">
+				<br>
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<div class="row">
+						<div class="col-lg-2" style="padding-right: 0px;">
+							<img src="images/car-review-propic-1.jpg" class="img-responsive propic-circle pull-left">
+						</div>
+						<div class="col-lg-10">
+							<footer>Robert Downey Jr.<br>2016</footer>
+						</div>
+					</div>
+				</blockquote>
+			</div>
+			<div class="col-lg-3">
+				<img src="images/car-1.jpg" class="img-responsive">
+				<br>
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<div class="row">
+						<div class="col-lg-2" style="padding-right: 0px;">
+							<img src="images/car-review-propic-1.jpg" class="img-responsive propic-circle pull-left">
+						</div>
+						<div class="col-lg-10">
+							<footer>Robert Downey Jr.<br>2016</footer>
+						</div>
+					</div>
+				</blockquote>
+			</div>
+			<div class="col-lg-3">
+				<img src="images/car-2.jpg" class="img-responsive">
+				<br>
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<div class="row">
+						<div class="col-lg-2" style="padding-right: 0px;">
+							<img src="images/car-review-propic-1.jpg" class="img-responsive propic-circle pull-left">
+						</div>
+						<div class="col-lg-10">
+							<footer>Robert Downey Jr.<br>2016</footer>
+						</div>
+					</div>
+				</blockquote>
+			</div>
+			<div class="col-lg-3">
+				<img src="images/car-3.jpg" class="img-responsive">
+				<br>
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<div class="row">
+						<div class="col-lg-2" style="padding-right: 0px;">
+							<img src="images/car-review-propic-1.jpg" class="img-responsive propic-circle pull-left">
+						</div>
+						<div class="col-lg-10">
+							<footer>Robert Downey Jr.<br>2016</footer>
+						</div>
+					</div>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="forth-section">
+	<div class="container">
+		<h1 class="text-brown">Car Brands</h1>
+		<br>
+		<div class="row">
+			<img src="images/brands.png" class="img-responsive"> 
+		</div><br>
+	</div>
+</section>
+
+<section class="fifth-section">
+	<div class="row"></div>
+</section>
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+ 
+        $('#myCarousel').carousel({
+                interval: 5000
+        });
+ 
+        //Handles the carousel thumbnails
+        $('[id^=carousel-selector-]').click(function () {
+        var id_selector = $(this).attr("id");
+        try {
+            var id = /-(\d+)$/.exec(id_selector)[1];
+            console.log(id_selector, id);
+            jQuery('#myCarousel').carousel(parseInt(id));
+        } catch (e) {
+            console.log('Regex failed!', e);
+        }
+    });
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+});
+</script>
+
+</body>
+</html>

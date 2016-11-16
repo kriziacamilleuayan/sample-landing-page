@@ -1,0 +1,165 @@
+.affix {
+	top:0px;
+	width: 100%;
+	z-index: 9999 !important;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+	position: relative;
+	top: 50px;
+}
+
+.header{
+	background-color: #000000;
+	color:#fff;
+	height:100px;
+}
+
+.navbar{
+	border-radius: 0px;
+	border: 1px solid #C99F3A;
+	border-width: 2px 0px 0px 0px; 
+}
+
+.navbar-default{
+	background-color: #000000;
+}
+
+.navbar-form{
+	margin-top: 30px;
+}
+
+/*.header-image{
+	width: 100%;
+	position: relative;
+}
+
+.header-contents{
+	position: absolute;
+	z-index: 1;
+}
+*/
+.header-content-text{
+	color: white !important;
+	text-shadow: 2px 2px #000000;
+}
+
+.jumbotron{
+	background-image: url('../images/landing-page-image-header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+
+.filter-tabs{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.tab-content{
+	background-color: white;
+	padding: 2%;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border-radius: 0px;
+    color: black;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #fff;
+    border-radius: 0px;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid #663300;
+    border-radius: 0 0 0 0;
+    background-color: black;
+    color: #CC6600;
+    border-bottom: 0px;
+}
+
+.form-control{
+	border-radius: 0px;
+}
+
+.width-25-percent{
+	width: 25%;
+}
+
+.width-10-percent{
+	width: 10%;
+}
+
+.width-30-percent{
+	width: 30%;
+}
+
+.width-100-percent{
+	width: 100%;
+}
+
+.btn-gold{
+	color:  #ffffff;
+    background-color: #751308;
+    border-color:  #C99F3A;
+}
+
+.btn-gold.focus, .btn-gold:focus, .btn-gold:hover {
+    color: #000000;
+    background-color:  #C99F3A;
+    border-color: black;
+    text-decoration: none;
+}
+
+.height-50-px{
+	height: 50px !important;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+    border-color:  #C99F3A;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.margin-top-30{
+	margin-top: 30px;
+}
+
+.third-section{
+	background-color: #f5f5f5;
+}
+
+.propic-circle{
+	border-radius: 50%;
+	width: 100%;
+}
+
+.forth-section{
+	background-color: #080808;
+}
+
+.text-brown{
+	color:  #C99F3A;
+}
+
+.second-section{
+	background-color: #080808;
+}
