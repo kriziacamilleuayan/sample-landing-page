@@ -15,7 +15,7 @@
 .header{
 	background-color: #000000;
 	color:#fff;
-	height:100px;
+	height:60px;
 }
 
 .navbar{
@@ -29,7 +29,7 @@
 }
 
 .navbar-form{
-	margin-top: 30px;
+	margin-top: 13px;
 }
 
 /*.header-image{
@@ -168,4 +168,12 @@
 	width: 30% !important;
 	background-color:  #C99F3A;
 	height: 5px !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffeec5;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffeec5;
 }

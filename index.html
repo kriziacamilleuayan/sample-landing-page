@@ -14,7 +14,7 @@
 	<div class="jumbotron">
 		<div class="container-fluid header">
 			<div class="pull-left">
-				<img src="images/logo.png" class="img-responsive" style="margin-top: 10px;">
+				<a href=""><img src="images/logo.png" class="img-responsive" style="margin-top: 10px; height: 50px;"></a>
 			</div>
 			<div class="pull-right">
 				<form class="navbar-form">
@@ -396,7 +396,7 @@
 		<br>
 		<div class="row">
 			<div class="col-lg-6">
-				<img src="images/car-review-1.jpg" class="img-responsive">
+				<a href=""><img src="images/car-review-1.jpg" class="img-responsive"></a>
 				<br>
 				<blockquote>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -412,7 +412,7 @@
 				</blockquote>
 			</div>
 			<div class="col-lg-6">
-				<img src="images/car-review-2.jpg" class="img-responsive">
+				<a href=""><img src="images/car-review-2.jpg" class="img-responsive"></a>
 				<br>
 				<blockquote>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -430,7 +430,7 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-3">
-				<img src="images/car-4.jpg" class="img-responsive">
+				<a href=""><img src="images/car-4.jpg" class="img-responsive"></a>
 				<br>
 				<blockquote>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -445,7 +445,7 @@
 				</blockquote>
 			</div>
 			<div class="col-lg-3">
-				<img src="images/car-1.jpg" class="img-responsive">
+				<a href=""><img src="images/car-1.jpg" class="img-responsive"></a>
 				<br>
 				<blockquote>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -460,7 +460,7 @@
 				</blockquote>
 			</div>
 			<div class="col-lg-3">
-				<img src="images/car-2.jpg" class="img-responsive">
+				<a href=""><img src="images/car-2.jpg" class="img-responsive"></a>
 				<br>
 				<blockquote>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -475,7 +475,7 @@
 				</blockquote>
 			</div>
 			<div class="col-lg-3">
-				<img src="images/car-3.jpg" class="img-responsive">
+				<a href=""><img src="images/car-3.jpg" class="img-responsive"></a>
 				<br>
 				<blockquote>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -530,29 +530,29 @@
 <script type="text/javascript" src="js/script.js"></script>
 
 <script type="text/javascript">
-  jQuery(document).ready(function($) {
- 
-        $('#myCarousel').carousel({
-                interval: 5000
-        });
- 
+	jQuery(document).ready(function($) {
+
+		$('#myCarousel').carousel({
+			interval: 5000
+		});
+
         //Handles the carousel thumbnails
         $('[id^=carousel-selector-]').click(function () {
-        var id_selector = $(this).attr("id");
-        try {
-            var id = /-(\d+)$/.exec(id_selector)[1];
-            console.log(id_selector, id);
-            jQuery('#myCarousel').carousel(parseInt(id));
-        } catch (e) {
-            console.log('Regex failed!', e);
-        }
-    });
+        	var id_selector = $(this).attr("id");
+        	try {
+        		var id = /-(\d+)$/.exec(id_selector)[1];
+        		console.log(id_selector, id);
+        		jQuery('#myCarousel').carousel(parseInt(id));
+        	} catch (e) {
+        		console.log('Regex failed!', e);
+        	}
+        });
         // When the carousel slides, auto update the text
         $('#myCarousel').on('slid.bs.carousel', function (e) {
-                 var id = $('.item.active').data('slide-number');
-                $('#carousel-text').html($('#slide-content-'+id).html());
+        	var id = $('.item.active').data('slide-number');
+        	$('#carousel-text').html($('#slide-content-'+id).html());
         });
-});
+    });
 </script>
 
 </body>
